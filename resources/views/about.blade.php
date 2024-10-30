@@ -12,6 +12,8 @@
       ABOUT ME 
     </h1> 
   </header> 
+
+  <li><a href="{{ route('index')}}" class="w-full py-2 bg-blue-500 text-white rounded-lg font-semibold hover:bg-blue-700 transition duration-300">Index</a></li>
 </center>
 </body> 
 </html>

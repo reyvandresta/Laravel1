@@ -24,7 +24,7 @@
 
             <!-- Submit Button -->
             <button type="submit" class="w-full py-2 bg-blue-500 text-white rounded-lg font-semibold hover:bg-blue-700 transition duration-300">LOGIN</button>
-        </form>
+            <Button href="{{ route('index')}}" class="w-full py-2 bg-blue-500 text-white rounded-lg font-semibold hover:bg-blue-700 transition duration-300">home</button>
     </div>
 
     <script>

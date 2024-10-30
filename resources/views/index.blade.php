@@ -21,6 +21,8 @@
                 <li><a href="#" class="hover:underline">Resep Rasa</a></li>
                 <li><a href="#" class="hover:underline">Belanja Yuk</a></li>
                 <li><a href="#" class="hover:underline">Instagram</a></li>
+                <li><a href="{{ route('login')}}" class="hover:underline">login</a></li>
+                <li><a href="{{ route('about')}}" class="hover:underline">about</a></li>
             </ul>
         </nav>
     </header>
@@ -31,7 +33,7 @@
         <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
             <div class="text-center text-white">
                 <h2 class="text-5xl font-bold mb-4">Welcome to Rumah Rasa</h2>
-                <a href="about.html" class="underline text-lg">Visit</a>
+                <a href="about.html" class="hover:underline">Visit</a>
             </div>
         </div>
     </section>
@@ -40,7 +42,7 @@
     <section class="container mx-auto py-12">
         <div class="text-center mb-12">
             <h2 class="text-4xl font-semibold">Resep</h2>
-            <p class="text-lg mt-2">Terbanyak diminati</p>
+            <p href="{{ route('index')}}" class="text-lg mt-2">Terbanyak diminati</p>
         </div>
 
         <!-- Recipe Cards -->
@@ -79,7 +81,7 @@
         <div class="container mx-auto">
             <img src="/assets/bawah.png" class="mx-auto w-24" alt="Rumah Rasa Logo">
             <h1 class="text-3xl font-bold mt-6">Website Rumah Rasa</h1>
-            <p class="mt-4 text-lg">Rumah Rasa adalah situs web yang menawarkan berbagai resep masakan dari beragam budaya.</p>
+            <p  class="mt-4 text-lg">Rumah Rasa adalah situs web yang menawarkan berbagai resep masakan dari beragam budaya.</p>
         </div>
     </footer>
 
